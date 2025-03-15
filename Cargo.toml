@@ -1,0 +1,10 @@
+[package]
+name = "template"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+scraper = "0.23.1"
+walkdir = "2"
+thiserror = "2"
+clap = { version = "4", features = ["derive"] }
